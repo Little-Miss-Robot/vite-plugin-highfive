@@ -1,0 +1,41 @@
+{
+  "name": "@littlemissrobot/vite-plugin-highfive",
+  "version": "1.0.0",
+  "author": "Brent Bauwens",
+  "license": "ISC",
+  "description": "A Vite plugin that adds support for Highfive, a contract-first TypeScript library for building applications with interchangeable services and shared conventions.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "decorators",
+    "babel",
+    "rolldown"
+  ],
+  "peerDependencies": {
+    "vite": "^8.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/plugin-proposal-decorators": "^7.29.7",
+    "@rolldown/plugin-babel": "^0.2.4"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  }
+}
