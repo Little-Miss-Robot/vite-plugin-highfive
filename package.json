@@ -29,8 +29,12 @@
     "vite-plugin",
     "decorators",
     "babel",
-    "rolldown"
+    "rolldown",
+    "highfive"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "vite": "^8.0.0"
   },
