@@ -6,6 +6,11 @@
   "description": "A Vite plugin that adds support for Highfive, a contract-first TypeScript library for building applications with interchangeable services and shared conventions.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Little-Miss-Robot/vite-plugin-highfive.git"
+  },
+  "homepage": "https://github.com/Little-Miss-Robot/vite-plugin-highfive#readme",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
