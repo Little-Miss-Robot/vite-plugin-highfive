@@ -1,6 +1,6 @@
 import babel from '@rolldown/plugin-babel'
 
-export default function highFive() {
+export default function highfive() {
     return babel({
         presets: [
             {

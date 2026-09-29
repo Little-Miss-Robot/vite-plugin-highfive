@@ -1,6 +1,6 @@
 # @littlemissrobot/vite-plugin-highfive
 
-A tiny Vite plugin that enables decorator support for [Highfive](https://github.com/littlemissrobot/highfive) using Babel and Rolldown.
+A tiny Vite plugin that enables decorator support for [Highfive](https://github.com/Little-Miss-Robot/highfive) using Babel and Rolldown.
 
 ## Installation
 
